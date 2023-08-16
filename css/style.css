@@ -1,0 +1,704 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.container1 {
+    width: 87.5%;
+    margin: auto;
+    min-width: 980px;
+    max-width: 2632px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 35px;
+    justify-content: center;
+    height: 45px;
+}
+
+header img {
+    width: 40px;
+    display: flex;
+    height: 50px;
+}
+
+header a {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--r-globalnav-color);
+    position: relative;
+    z-index: 1;
+    padding-left: 4px;
+    height: 44px;
+    background: no-repeat;
+    text-decoration: none;
+    white-space: nowrap;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    outline-offset: -7px;
+    transition: color .32s cubic-bezier(.4, 0, .6, 1);
+    color: black;
+}
+
+.search-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.shop-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.credit {
+    background-color: #f5f5f7;
+    animation: animate-background-0071e3-f5f5f7 1s ease-in-out 1.8s forwards;
+    height: 50px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.credit p {
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.menu span {
+    font-size: 14px;
+    line-height: 1.28577;
+    font-weight: 550;
+    letter-spacing: -.016em;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: black;
+}
+
+.menu img {
+    width: 25px;
+    height: 25px;
+}
+
+.menu .item {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    color: blue;
+    font-size: 14px;
+}
+
+.menu p {
+    min-width: 140px;
+    max-width: 140px;
+    margin-left: 12px;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.menu {
+    margin: 0 auto;
+    height: 70px;
+    font-size: 12px;
+    width: 1000px;
+    margin-top: 10px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f7;
+    border-radius: 4px;
+    padding: 14px 0;
+}
+
+.aboutDiscount {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstSide {
+    margin-top: 70px;
+}
+
+.firstSide p {
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #1d1d1f;
+}
+
+.firstSide h1 {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #1d1d1f;
+    padding-bottom: 8px;
+}
+
+.firstSide span {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-top: 3px;
+    color: #BF4800;
+}
+
+.secondSide {
+    margin-top: 70px;
+}
+
+.border-bg {
+    height: 30px;
+    text-align: center;
+    margin-left: 45px;
+    border-radius: 30px;
+}
+
+.border-bg p {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: flex;
+    color: #1d1d1f;
+    border-radius: 18px;
+    background-color: #f5f5f7;
+    padding: 12px 16px;
+    margin: 6px 0;
+    text-decoration: none;
+}
+
+.border-bg2 p {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: flex;
+    color: #1d1d1f;
+    border-radius: 18px;
+    background-color: #f5f5f7;
+    padding: 12px 16px;
+    margin: 6px 0;
+    text-decoration: none;
+}
+
+aside {
+    margin-left: 50px;
+}
+
+.border-bg2 {
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(241, 241, 241);
+}
+
+.secondSide p {
+    margin-top: 10px;
+    padding-top: 9px;
+}
+
+.images {
+    flex-basis: calc(100% - 22.82353rem);
+    max-width: 100%;
+    padding-right: 60px;
+    top: 109px;
+    height: calc(100vh - 109px);
+    min-height: 540px;
+    position: sticky;
+}
+
+.images2 {
+    display: flex;
+    border-radius: 18px;
+    height: calc(100vh - 189px);
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 100%;
+    flex-direction: column;
+}
+
+.images2 img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    border-radius: 18px;
+}
+
+.imgFunction {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+aside {
+    flex-basis: 19.29412rem;
+    max-width: 19.29412rem;
+}
+
+.rf-first-step {
+    margin: max(0px, (50vh - 54.5px) - 188.5px) 0px max(60px, ((50vh - 54.5px) - 188.5px) - 58px);
+}
+
+.rf-first-step h3 {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.rf-first-step span {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: gray;
+}
+
+.border-rc2 {
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    border: 2px solid gray;
+    height: 100px;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.colornav-items {
+    display: flex;
+    list-style: none;
+    margin: 0 -1px;
+    gap: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#colornav-item1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: purple;
+}
+
+#colornav-item2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: gold;
+    transition: opacity 0.5s ease;
+}
+
+#colornav-item3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    transition: opacity 0.5s ease;
+    background-color: rgb(224, 217, 217);
+}
+
+#colornav-item4 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+.rf-second-step {
+    margin: 0px 0px max(60px, (50vh - 54.5px) - 334.5px);
+}
+
+fieldset {
+    margin-top: 200px;
+}
+
+legend span {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    color: black;
+    letter-spacing: .009em;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+legend h2 {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    color: gray;
+    letter-spacing: .009em;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.rc-dimension-selector-row {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.right-rc p {
+    font-size: large;
+    font-weight: bold;
+}
+
+.rc-right {
+    font-size: 17px;
+    line-height: 1.23536;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #1d1d1f;
+    padding-top: 35px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+.right-rc span {
+    position: relative;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+}
+
+.left-rc {
+    position: relative;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #1d1d1f;
+}
+
+.rc-left {
+    display: block;
+    margin-top: 0.23529rem;
+    position: relative;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #1d1d1f;
+    padding: 10px;
+}
+
+.rc-help {
+    margin-top: 10px;
+    background-color: rgb(241, 241, 241);
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.selectionarea h2 {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    color: gray;
+}
+
+.selectionarea {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.selectionarea span {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    color: black;
+}
+
+.second-step-selectionarea {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.third-step-area {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 440px;
+    height: 80px;
+    text-align: center;
+}
+
+.third-step-area2 {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 440px;
+    height: 80px;
+    text-align: center;
+}
+
+.third-step-area span {
+    font-size: 17px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.23536;
+    letter-spacing: -.022em;
+}
+
+.third-step-area p {
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #1d1d1f;
+}
+
+.third-step-area2 p {
+    font-size: 20px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    padding-top: 30px;
+    line-height: 1.23536;
+    letter-spacing: -.022em;
+}
+
+.last-step {
+    background-color: #f5f5f7;
+    border-radius: 18px;
+    margin: 16px 7px 0;
+    padding: 14px 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
+    width: 890px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.img1 {
+    animation: fadeIn 0.5s ease-in;
+    opacity: 1;
+}
+
+body.modalOpen {
+    overflow: hidden;
+}
+
+.modal {
+    text-align: center;
+    min-height: 48em;
+    flex-grow: 1;
+    min-width: 50rem;
+    background-color: white;
+    position: absolute;
+    border-radius: 20px;
+    display: block;
+    top: 40px;
+    left: 50%;
+    translate: -50%;
+}
+
+.modal button {
+    position: relative;
+    left: -365px;
+    top: 16px;
+    border: none;
+    border-radius: 100%;
+}
+
+.modalTxt h2 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.modalTxt p {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding-top: 10px;
+}
+
+.modalTxt a {
+    background: transparent;
+    border: 0;
+    color: #06c;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    padding: 0;
+    vertical-align: inherit;
+    cursor: pointer;
+}
+
+.modal-img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #e8e8ed;
+    color: #6e6e73;
+    height: 26px;
+    width: 26px;
+    outline: none;
+}
+
+.btn-img {
+    margin-bottom: 74px;
+}
+
+.modal-div {
+    height: 36px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 36px;
+}
+
+.btns {
+    position: relative;
+    left: 350px;
+    display: flex;
+    align-items: center;
+    top: 10px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btns button {
+    font-size: 17px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: -.021em;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-decoration: none;
+    border-radius: 40px;
+    z-index: 0;
+    width: 100px;
+    height: 40px;
+}
+
+.btns img {
+    width: 30px;
+    height: 30px;
+}
+
+.modal {
+    display: none;
+    opacity: 0;
+    transition: .5s ease;
+    position: fixed;
+}
+
+.modal_bg {
+    display: none;
+    backdrop-filter: blur(4px);
+    width: 100%;
+    position: absolute;
+    transition: .5s ease;
+    top: 0px;
+    opacity: 0;
+    left: 0px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999;
+    position: fixed;
+    overflow: auto;
+    display: none;
+    box-sizing: border-box;
+    align-items: flex-start;
+}
+
+select {
+    color: #1d1d1f;
+    border-color: #86868b;
+    background-color: hsla(0, 0%, 100%, .8);
+}
+
+select {
+    margin-top: 70px;
+    width: 70%;
+    height: 50px;
+
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-radius: 12px;
+    padding: 1.05882rem 2.35294rem 0 0.94118rem;
+}
+
+.text1 {
+    font-weight: 600;
+    padding: 30px 0;
+}
+
+.modal_bg{
+    height: 100%;
+}
